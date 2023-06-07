@@ -1,0 +1,53 @@
+1. Crear un programa en Js que indique si un número quemado es par o es impar.
+Se considera que es par si al dividirlo entre 2 da cero
+
+2. Codificar programa que solicite un al usuario un número e indique si es positivo o negativo. Los positivos inician a partir del cero
+
+3. El usuario deberá ingresar dos números. El programa debe devolver la diferencia entre el mayor y el menor (una resta). Solo admite restas positivas
+
+
+// Par o impar
+let number = 234
+let div
+div = number % 2;
+if (div === 0) {
+    alert(number + " is Even");
+}
+else {
+    alert(number + " is odd");
+}
+
+// Positivo
+let num = parseInt(prompt("Type a number "));
+if (num > 0) {
+    alert(num + " is positive");
+  } else if (num == 0) {
+    alert(num + " is zero");
+  } else {
+    alert(num + " is negative");
+  }
+
+
+
+// Resta
+var num1 = parseInt(prompt("Digitar el primer numero "));
+var num2 = parseInt(prompt("Digitar el segundo numero"));
+var resta;
+if (num1 > num2) {
+    resta = num1 - num2;
+    alert("Diferencia " + resta);
+} else {
+    resta = num2 - num1;
+    alert("Diferencia " + resta);
+}
+
+
+
+
+
+
+
+
+
+
+
