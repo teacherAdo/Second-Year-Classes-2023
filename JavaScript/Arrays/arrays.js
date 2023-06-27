@@ -3,7 +3,7 @@
 // -Coleccion de datos
 
 //crear el array
-let colores = ["rojo", "azul", "verde"]
+let colores = ["rojo", 'azul', "verde"]
 
 //mostrar la longitud / tamaño del arreglo
 console.log(colores.length)
@@ -16,8 +16,6 @@ let ultimo = colores[colores.length - 1]
 
 // reasignar un valor a un indice del arreglo
 colores[0] = "amarillo";
-
-
 
 
 //Arreglo de marcas de Autos 
@@ -46,4 +44,10 @@ let pos = marcas.indexOf("Honda")
 
 
 // Guardar en un arreglo los numeros del 1 al 100
-////Ejercicio
+let array = [];
+ 
+for(let i=1;i<=100;i++){
+    array.push(i);
+}
+ 
+console.log(array);
